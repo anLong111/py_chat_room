@@ -1,0 +1,36 @@
+2024-12-06 20:53:14 MainThread:15300 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 223, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-06 20:53:14 MainThread:18604 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 223, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-30 17:01:47 MainThread:27812 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 225, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-30 17:32:26 MainThread:32488 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 225, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-30 17:32:26 MainThread:22728 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 225, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-30 17:37:26 MainThread:30344 [asyncio] ERROR [D:\python_explain_tool\lib\asyncio\base_events.py:1707] Task exception was never retrieved
+future: <Task finished name='Task-3' coro=<MyConn.send_all() done, defined at D:\Desktop\学习\python\server\lib\common.py:219> exception=AttributeError("'NoneType' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\Desktop\学习\python\server\lib\common.py", line 225, in send_all
+    dic = await loop.run_in_executor(None, cls.bcst_q.get)
+AttributeError: 'NoneType' object has no attribute 'get'
