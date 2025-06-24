@@ -1,5 +1,5 @@
 # coding: utf-8
-# @Author: 小飞有点东西
+# @Author: 小安
 
 from core.views import *
 
